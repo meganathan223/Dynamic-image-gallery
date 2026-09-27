@@ -1,8 +1,8 @@
-export default function ImageCard({ img, onSelect }) {
+export default function ImageCard({ image, onSelect }) {
     return (
         <div className="img-card">
-            <div className="image-container" onClick={() => onSelect(img)}>
-                <img src={img.imgurl} alt={img.title} />
+            <div className="image-container" onClick={() => onSelect(image)}>
+                <img src={image.imgurl} alt={image.title} />
             </div>
         </div>
     )

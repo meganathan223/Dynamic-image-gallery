@@ -13,7 +13,7 @@ export default function Gallery() {
                 {FOOD_LIST.map((item) => (
                     <ImageCard
                         key={item.id}
-                        img={item}
+                        image={item}
                         onSelect={setSelectedImage}
                     />
                 ))}

@@ -1,5 +1,4 @@
 export default function ImageModal({ image, onClose }) {
-    console.log(image.imgurl)
     if (!image) return null;
 
     return (
