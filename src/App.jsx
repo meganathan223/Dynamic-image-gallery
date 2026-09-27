@@ -4,7 +4,6 @@ import './App.css'
 import Home from './pages/Home/Home';
 import Gallery from './pages/Gallery/Gallery';
 
-const categories = ['dessert', 'fruit-drink', 'street-food']
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
   return (
