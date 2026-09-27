@@ -17,6 +17,7 @@ export default function Home({ setPage }) {
                 <div className="container-2">
                     <div className="image-slider">
 
+
                     </div>
                 </div>
             </div>

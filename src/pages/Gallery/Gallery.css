@@ -1,0 +1,30 @@
+.gallery {
+    column-count: 4;
+    background-color: #0b0f19;
+    padding: 0 10px;
+}
+
+.img-card {
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-bottom: 10px;
+}
+
+.img-card img {
+    width: 100%;
+}
+
+.img-card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        column-count: 2;
+        column-gap: 8px;
+    }
+
+    .img-card {
+        margin-bottom: 2px;
+    }
+}
