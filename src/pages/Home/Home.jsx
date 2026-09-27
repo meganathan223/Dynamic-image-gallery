@@ -15,9 +15,8 @@ export default function Home({ setPage }) {
                 </div>
 
                 <div className="container-2">
-                    <div className="image-slider">
-
-
+                    <div className="hero-image">
+                        <img src="/assets/hero.jpg" alt="hero-image" />
                     </div>
                 </div>
             </div>
