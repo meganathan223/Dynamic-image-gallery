@@ -1,4 +1,5 @@
 import './Home.css'
+import heroImg from '../assets/hero.jpg';
 
 export default function Home({ setPage }) {
     return (
@@ -16,7 +17,7 @@ export default function Home({ setPage }) {
 
                 <div className="container-2">
                     <div className="hero-image">
-                        <img src="/assets/hero.jpg" alt="hero-image" />
+                        <img src={heroImg} alt="hero-image" />
                     </div>
                 </div>
             </div>
