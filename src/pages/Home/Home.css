@@ -86,7 +86,7 @@
 
 @media (max-width: 768px) {
     .home-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
         text-align: center;
         gap: 2rem;
     }
