@@ -1,5 +1,5 @@
 import './Home.css'
-import heroImg from '../assets/hero.jpg';
+import heroImg from '../../assets/hero.jpg';
 
 export default function Home({ setPage }) {
     return (
